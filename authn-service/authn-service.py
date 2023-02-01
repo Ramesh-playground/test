@@ -75,3 +75,4 @@ def authenticate(code):
     token = jwt.encode(claimset, 'secretsecret1234secretsecret1234', algorithm='HS256')
 
     return {'token': token.decode()}
+my_custom_secret_678
